@@ -6,4 +6,4 @@ RUN mkdir -p /run/php /run/caddy/run/supervisor
 COPY config/php-fpm.conf /etc/php7/php-fpm.d/www.conf
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 WORKDIR /www
-CMD ["/usr/bin/supervisord" "-c" "/etc/supervisor/conf.d/supervisord.conf"]
+CMD /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
