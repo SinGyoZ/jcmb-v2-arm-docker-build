@@ -1,2 +1,2 @@
 # SakuraNeko
-universal PHP based application/JKFS/java runtime 
+Lotusboard PHP based application runtime
